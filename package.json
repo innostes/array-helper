@@ -1,6 +1,6 @@
 {
   "name": "@innostes/object-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility library to help with object & array manipulations like sorting, filtering, and removing duplicates.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,15 +9,17 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
+    "object-manipulation",
+    "array-manipulation",
+    "arrays",
     "objects",
-    "array", 
-    "utils", 
-    "typescript", 
-    "helpers", 
-    "array-manipulation", 
-    "sorting", 
-    "filtering", 
-    "removal"
+    "typescript",
+    "helpers",
+    "sorting",
+    "filtering",
+    "removing-duplicates",
+    "deep-clone",
+    "merge-objects"
   ],
   "author": "Innostes Solutions <support@innostes.com>",
   "license": "MIT",
