@@ -1,0 +1,37 @@
+{
+  "name": "@innostes/object-helper",
+  "version": "1.0.0",
+  "description": "A utility library to help with object & array manipulations like sorting, filtering, and removing duplicates.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "objects",
+    "array", 
+    "utils", 
+    "typescript", 
+    "helpers", 
+    "array-manipulation", 
+    "sorting", 
+    "filtering", 
+    "removal"
+  ],
+  "author": "Innostes Solutions <support@innostes.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innostes/array-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/innostes/array-helper/issues"
+  },
+  "homepage": "https://github.com/innostes/array-helper#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {}
+}
